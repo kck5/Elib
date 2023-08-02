@@ -1,0 +1,34 @@
+{
+  "name": "doingmajorproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx nodemon database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManikantaMandala/ELibraryWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManikantaMandala/ELibraryWebsite/issues"
+  },
+  "homepage": "https://github.com/ManikantaMandala/ELibraryWebsite#readme",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
